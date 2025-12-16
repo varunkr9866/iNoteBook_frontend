@@ -1,13 +1,14 @@
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import { Home } from "./components/Home";
-import About from "./components/About";
-import NoteState from "./context/notes/NoteState";
-import { Alert } from "./components/Alert";
-import Signup from "./components/Signup";
-import Login from "./components/Login";
+import Navbar from "./components/Navbar.jsx";
+import { Home } from "./components/Home.jsx";
+
+import NoteState from "./context/notes/NoteState.jsx";
+import { Alert } from "./components/Alert.jsx";
+import Signup from "./components/Signup.jsx";
+import Login from "./components/Login.jsx";
+import About from "./components/About.jsx";
 
 function App() {
   return (
